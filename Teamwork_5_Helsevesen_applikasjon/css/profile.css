@@ -1,0 +1,62 @@
+/*Sette header skrivten og footer skrivten i center.*/
+
+.header {
+    display: flex;
+    align-items: center;
+    font-size: large;
+}
+
+.profileHeaderText{
+    color: white;
+}
+    
+.profilepic {
+    height: 120px;
+    width: 120px;
+    margin-top: 20px;
+    background-color: #f9f9f9; 
+
+}
+
+.itemsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 32px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: inset #93939373 1px 1px 5px 0px, 
+                inset #484848 -1px -1px 5px 0px;
+    
+}
+
+
+.bioText {
+    top: 20%;
+    left: 10%;
+    border: 2px solid black;
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.foot {
+    
+    bottom: 30%;
+    left: 10%;
+    border: 2px solid black;
+    width: 80%;
+    height: 200px;
+    margin: auto;
+}
+
+.profileFooterText {
+    color: white;
+}

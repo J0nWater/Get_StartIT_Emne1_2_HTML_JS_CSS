@@ -1,0 +1,69 @@
+.accountRegBox
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+.containerDiv
+{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap:10px
+}
+
+.topText
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.days
+{
+    display: flex;
+    justify-content: first baseline;
+}
+.day
+{
+    margin: 5px;
+    background-color: antiquewhite;
+    padding: 3px;
+    
+}
+
+.miniContainer
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 50px;
+}
+.miniContainerBox
+{
+    margin:5px
+}
+
+.cavFooter
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100px;
+    background-color: white;
+}
+
+.cavButton
+{
+    height: 50px;
+    width: 200px;
+    font-size: larger;
+    font-weight: bold;
+    border-width: 2px;
+}
+.cavButton:hover{opacity: 80%;}
+.cavButton:active{opacity: 50%;}

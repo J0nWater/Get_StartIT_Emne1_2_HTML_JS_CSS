@@ -1,0 +1,2 @@
+let userInput = '';
+let reversed = '';

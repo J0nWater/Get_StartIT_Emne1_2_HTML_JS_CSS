@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Oppgave - funksjon med parametere</h1>
+    <div id="text" class="text">
+    Lag en funksjon som kan endre både tekst, farge og størrelse til en div.<br/>
+    Legg til 2 knapper som trigger funksjonen med forskjellige verdier
+    </div>
+    <p>
+    <button onclick="textStyle('green','20px','')">Style 1</button>
+    <button onclick="textStyle('blue','30px')">Style 2</button>
+
+    <script>
+
+        function textStyle(color,size) {
+
+            document.getElementById('text').innerHTML = /*html*/`
+            <div style="color: ${color}; font-size: ${size};">Lag en funksjon som kan endre både tekst, farge og størrelse til en div.<br/>
+                Legg til 2 knapper som trigger funksjonen med forskjellige verdier</div>
+            `;
+
+        }
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+h1{
+    margin-left: 90px;
+}
+h4{
+    margin-left: 40px;
+}
+p{
+    max-width: 480px;
+    margin: 40px;
+}
+.adjContainer{
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    gap: 50px;
+    margin-left: 13px;
+}
+.box{
+    display: grid;
+    grid-template-rows: 10px 10px 10px 10px;
+    gap: 20px;
+}
+.item{
+    border: 1px solid black;
+    width: 70px;
+    height: 25px;
+    background: lightgray;
+    gap: 5px;
+    border-radius: 3px;
+    text-align: center;
+    align-content: center;
+    cursor: pointer;
+}
+.item:hover{
+    background-color: azure;
+}
